@@ -34,9 +34,9 @@ module.exports = {
             channelId: memberVC.id,
             adapterCreator: guild.voiceAdapterCreator,
             selfMute: false,
-            selfDeaf: true,
+            selfDeaf: false,
         });
-        await interaction.reply('Join VC');
+        await interaction.reply('ども🦀');
         return;
     },
 }

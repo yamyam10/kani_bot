@@ -11,7 +11,8 @@ const client = new Client({
 const dotenv = require('dotenv');
 dotenv.config()
 
-const default_voice = "6";
+// const default_voice = "6";
+const default_voice = "89"; // voidollのID
 var voiceMap = new Map();
 
 // コマンド取得

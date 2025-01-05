@@ -1,0 +1,16 @@
+{
+  "name": "voicebox",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@discordjs/voice": "^0.18.0",
+    "axios": "^1.7.9",
+    "discord.js": "^13.17.1",
+    "dotenv": "^16.4.7",
+    "fs": "^0.0.1-security"
+  }
+}

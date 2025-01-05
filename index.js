@@ -1,5 +1,5 @@
 const { default: axios } = require("axios");
-const rpc = axios.create({baseURL: "https://voicevox_engine.up.railway.app:50021", proxy: false, });
+const rpc = axios.create({baseURL: "https://voicevox_engine.up.railway.app", proxy: false, });
 const { getVoiceConnection, createAudioResource, StreamType, createAudioPlayer, NoSubscriberBehavior, generateDependencyReport } = require("@discordjs/voice");
 const fs = require('fs')
 
